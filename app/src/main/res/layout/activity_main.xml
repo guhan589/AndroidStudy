@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        tools:ignore="MissingConstraints,NewApi">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/set_date"
+            android:text="시 목록"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textColor="@android:color/white"/>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/poemtitle_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="별 헤는 밤"/>
+        <TextView
+            android:id="@+id/premswriter_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="윤동주"/>
+        <TextView
+            android:id="@+id/premscontent_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="계절이 지나가는 하늘에는
+가을로 가득 차 있습니다.\n\n
+나는 아무 걱정도 없이\n
+가을 속의 별들을 다 헤일 듯합니다.\n\n
+가슴 속에 하나 둘 새겨지는 별을\n
+이제 다 못 헤는 것은\n
+쉬이 아침이 오는 까닭이요,\n
+내일 밤이 남은 까닭이요,\n
+아직 나의 청춘이 다하지 않은 까닭입니다.\n\n
+별 하나에 추억과\n
+별 하나에 사랑과\n
+별 하나에 쓸쓸함과\n
+별 하나에 동경과\n
+별 하나에 시와\n
+별 하나에 어머니, 어머니,\n
+
+어머님, 나는 별 하나에 아름다운 말 한마디씩 불러봅니다. \n
+소학교때 책상을 같이 했던 아이들의 이름과, 패, 경, 옥 이런 이국소녀들의 이름과 벌써 애기 어머니 된 계집애들의 이름과, 가난한 이웃사람들의 이름과, 비둘기, 강아지, 토끼, 노새, 노루, ｢프란시스․쟘｣ ｢라이너․마리아․릴케｣ 이런 시인의 이름을 불러봅니다.\n
+\n\n
+이네들은 너무나 멀리 있습니다.\n
+별이 아슬히 멀 듯이,\n\n
+어머님,\n
+그리고 당신은 멀리 북간도에 계십니다.\n\n
+나는 무엇인지 그리워\n
+이 많은 별빛이 나린 언덕 위에\n
+내 이름자를 써보고,\n
+흙으로 덮어 버리었습니다.\n\n
+딴은 밤을 새워 우는 벌레는\n
+부끄러운 이름을 슬퍼하는 까닭입니다.\n\n
+그러나 겨울이 지나고 나의 별에도 봄이 오면\n
+무덤 위에 파란 잔디가 피어나듯이\n
+내 이름자 묻힌 언덕 위에도\n
+자랑처럼 풀이 무성할 게외다.\n"/>
+        
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/poemtitle_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="가지 않은 길"/>
+        <TextView
+            android:id="@+id/poemswriter_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로버트 프로스트"/>
+        <TextView
+            android:id="@+id/poemscontent_textview2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="
+노란 숲 속에 길이 두 갈래로 났었습니다.\n
+나는 두 길을 다 가지 못하는 것을 안타깝게 생각하면서,\n
+오랫동안 서서 한 길이 굽어 꺾여 내려간 데까지,\n
+바라다볼 수 있는 데까지 멀리 바라다보았습니다.\n
+\n\n\n
+그리고, 똑같이 아름다운 다른 길을 택했습니다.\n
+그 길에는 풀이 더 있고 사람이 걸은 자취가 적어,\n
+아마 더 걸어야 될 길이라고 나는 생각했었던 게지요.\n
+그 길을 걸으므로, 그 길도 거의 같아질 것이지만.\n
+\n\n
+그 날 아침 두 길에는\n
+낙엽을 밟은 자취는 없었습니다.\n
+아, 나는 다음 날을 위하여 한 길은 남겨 두었습니다.\n
+길은 길에 연하여 끝없으므로\n
+내가 다시 돌아올 것을 의심하면서…….\n
+\n\n\n
+훗날에 훗날에 나는 어디선가\n
+한숨을 쉬며 이야기할 것입니다.\n
+숲 속에 두 갈래 길이 있었다고,\n
+나는 사람이 적게 간 길을 택하였다고,\n
+그리고 그것 때문에 모든 것이 달라졌다고.\n
+ "/>
+
+    </LinearLayout>
+
+</LinearLayout>
